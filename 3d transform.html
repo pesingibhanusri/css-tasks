@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .moon{
+            display: grid;
+            grid-template-areas: "header1 header1 header3"
+                                   "main1 aside  aside  "
+                                   "main1 footer footer";
+                                   border-radius: 10px;
+                                   gap: 20px;
+                                   /* background-color: rgb(128, 68, 0); */
+                                   box-shadow: 10px 20px 10px deeppink;
+
+
+        }
+        .img1{
+            grid-area: header1;
+           
+        }
+        .img2{
+            grid-area: header3;
+        }
+        .img3{
+            grid-area: main1;
+        }
+        .img4{
+            grid-area: aside;
+        }
+        .img5{
+            grid-area: footer;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+          
+        }
+        .img1:hover{
+            transform: rotate3d(1,1,1,56deg);
+        }
+        .img2:hover{
+            transform: translate3d(250px,250px,150px);
+        }
+        .img3:hover{
+            transform: scale3d(2,3,2);
+        }
+        .img4:hover{
+            transform: perspective(1500px) rotateX(45deg) ;
+        }
+        .img5:hover{
+            transform: perspective(1500px) translate3d(250px,250px,250px) ;
+        }
+    </style>
+</head>
+<body>
+    <div class="moon">
+        <img  class="moon img1" src=" https://www.ucl.ac.uk/news/sites/news/files/styles/large_image/public/bright-and-beautiful-dramatic-super-moon-over-the-ocean-with-small-boat-and-reflection-of.jpg_s1024x1024wisk20cvyzno6cygej5tvtkwghz2ekoajmc_msoxkzh5bgkuek.jpg?itok=NC5FBTP2">
+        <img class="moon img2" src="https://www.astronomy.com/uploads/2023/09/underfullmoon.jpeg">
+        <img class="moon img3" src="https://www.shutterstock.com/image-photo/romantic-night-scene-beautiful-pink-600nw-2261269699.jpg">
+        <img class="moon img4" src="https://static.vecteezy.com/system/resources/thumbnails/029/207/732/small/romantic-and-scenic-panorama-with-full-moon-on-sea-to-night-ai-generated-photo.jpg">
+        <img class="moon img5" src="https://w0.peakpx.com/wallpaper/357/755/HD-wallpaper-moonlight-art-luminos-luna-full-sky-dragon-moon-fantasy-purple-pink-blue-night.jpg">
+    
+    </div>
+</body>
+</html>
