@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .container{
+            display: grid;   
+              gap: 15px;    
+               background-color: navy;
+                grid-template-areas: "header1 header2 main1 header3"
+                                     "main2   main2   main1  main3"
+                                     "section  section main4  main3"
+                                     "section  section footer footer";
+                                  
+                                     /* margin: 15px; 
+                                     border-radius: 10px;
+                                     grid-template-columns: 25px 25px 25px 25px;
+                                     grid-template-rows: 25px 25px 25px 25px;
+                                     border: 2px solid black;
+                                     gap: 10px;
+                                     padding: 5px 0;
+                                     height: 90vh;
+                                     width: 95vw; 
+                                
+        /*  */
+        }
+        .item1{
+            grid-area:header1 ;
+        }
+        .item2{
+          grid-area: header2;
+
+        }
+        .item3{
+grid-area: main1;
+            
+        }
+        .item4{
+            
+grid-area: header3;
+        }
+        .item5{
+grid-area: main2;
+        }
+        .item6{
+grid-area: main3;
+        }
+        .item7{
+grid-area: section;
+        }
+        .item8{
+grid-area: main4;
+        }
+        .item9{
+grid-area: footer;
+        }
+         img{ 
+              height: 100%;  
+             width: 100%;  
+         }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+    <img class="container item1"  src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTLybNb_QBsUMoSoBHhqClRCLvJ_04oBkCWHt0WnpDIIeTW9mbp" >
+    <img class="container item2"  src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_FXp6cTpn6gQhF3uhxEJq25qOmIHwchL9MkTNICteDZ0suO3B" >
+    <img class="container item3"  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQSQTPhN6yICJwyiXNJdDq2A1aDZuYxXrr3Z6DglsC9todGRw4O" >
+    <img class="container item4"  src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSeRWmG1v8uqKQi3IptelJ3NA82r7RnW7Dqg0ctizVts6Q6OrD" >
+    <img class="container item5"  src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQOtGdZUrYK80M7t0qcGDnwkaN7Z5kgJLJGkf-jCGP0MwIAzZWr">
+    <img class="container item6"  src="https://images.unsplash.com/photo-1588499756884-d72584d84df5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjUyNzIzfQ" >
+    <img  class="container item7" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQFt_2l3gTiPqcoYuuT0uqQmZfqeycwctwUiE-sdcLkAPXEsKRM" >
+    <img  class="container item8" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQuQyKZckcPFh4MT69tukXJ_mEgXBLZ5p1-tfcCaRIXtNjm93i2" >
+    <img  class="container item9" src="https://media.licdn.com/dms/image/D4E16AQF0cGQxpQGKTg/profile-displaybackgroundimage-shrink_200_800/0/1708274982755?e=2147483647&v=beta&t=872SDAtwTJleFxD3VUytZqfOpWzG2PnEqWVUv-RHRaQ" >
+    
+</div>
+
+    
+</body>
+</html>
